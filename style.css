@@ -2,10 +2,16 @@ body{
     background-color: #4158D0;
     background-image: linear-gradient(0deg, #4158D0 20%, #C850C0 50%, #FFCC70 100%);
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
 .calc{
-    width:25%;
-    height:35%;
+    width:400px;
+    height:600px;
     border: solid #fff;
     margin-top: 3%; 
     margin-left: 35%;
